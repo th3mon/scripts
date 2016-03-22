@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Toggle pasword</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css\main.css">
+</head>
+<body>
+    <header class="sheru-cp-header">
+        <h1 class="sheru-cp-header__title">Form field toggle</h1>
+        <p class="sheru-cp-header__description">Toggle password hide/show with progressive enhancement, while ensuring only a password field is actually submitted as part of the form. Toggle is only displayed if JS enabled.</p>
+        <a href="http://codepen.io/shellbryson/post/toggle-passwords">A safe way to toggle passwords</a>
+    </header>
+
+    <!-- Experiment begins -->
+
+    <form class="js-form">
+        <fieldset>
+            <div class="form__field">
+                <label class="form__label" for="form-password">Please enter a password:</label>
+                <input type="password" class="js-password form__element form__password" id="form-password" />
+            </div>
+            <div class="form__field">
+                <input type="submit" class="js-submit sheru-cp-button" value="Set Password">
+            </div>
+        </fieldset>
+    </form>
+
+
+    <script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+    <script src="js\main.js"></script>
+</body>
+</html>

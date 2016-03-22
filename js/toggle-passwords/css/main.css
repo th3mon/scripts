@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700);
+body {
+  font-family: "Arial", san-serif;
+  padding: 10px;
+}
+
+.sheru-cp-button {
+  background: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.9);
+  cursor: pointer;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 12px;
+  background-image: -webkit-linear-gradient(top, #f4f1ee, #fff);
+  background-image: linear-gradient(top, #f4f1ee, #fff);
+  border-radius: 8px;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.3), inset 0px 2px 1px 0 white, inset 0px -1px 1px 1px rgba(204, 198, 197, 0.5);
+}
+
+.sheru-cp-header {
+  background: rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0, 0.8);
+  padding: 16px 10px 10px 10px;
+  margin-bottom: 18px;
+  font-family: "Noto Sans", sans-serif;
+  border-radius: 4px;
+}
+
+.sheru-cp-header__title {
+  display: block;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  overflow: hidden;
+  background-color: #666666;
+  text-shadow: rgba(255, 255, 255, 0.5) 0px 1px 2px;
+}
+
+.sheru-cp-header__description {
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 20px;
+}
+
+.sheru-cp-section {
+  margin-bottom: 20px;
+}
+
+.form__field {
+  display: block;
+  position: relative;
+}
+
+.form__label {
+  display: inline-block;
+  line-height: 40px;
+}
+
+.form__element {
+  display: inline-block;
+  height: 40px;
+  font-size: 30px;
+}
+
+.form__password {
+  display: inline-block;
+  height: 40px;
+  font-size: 30px;
+}
+
+.form__toggle {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.form__toggle-button {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  display: inline-block;
+  height: 40px;
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.form__toggle-button:hover {
+  color: rgba(0, 0, 255, 0.5);
+}
