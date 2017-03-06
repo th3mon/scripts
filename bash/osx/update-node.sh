@@ -1,3 +1,4 @@
+#!/bin/bash
 # First you need install N
 # https://github.com/tj/n
 # npm install -g n
