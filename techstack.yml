@@ -1,11 +1,11 @@
 repo_name: th3mon/scripts
-report_id: f5b1be63a7b6d68dc010d43d35186e90
+report_id: 97f99098ead3d5ce33cf73c99897e3d5
 repo_type: Public
-timestamp: '2023-11-09T13:57:10+00:00'
-requested_by: th3mon
+timestamp: '2023-12-14T09:26:58+00:00'
+requested_by: stack-file[bot]
 provider: github
 branch: master
-detected_tools_count: 4
+detected_tools_count: 5
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -35,6 +35,15 @@ tools:
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
   detection_source: Repo Metadata
+- name: HTML
+  description: Hypertext Markup Language for creating web pages.
+  website_url: http://
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source: js/fixed-fade-menu/index.html
+  last_updated_by: th3mon
+  last_updated_on: 2016-03-11 01:48:56.000000000 Z
 - name: Shell
   description: A shell is a text-based terminal, used for manipulating programs and
     files. Shell scripts typically manage program execution.
