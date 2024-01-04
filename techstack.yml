@@ -1,7 +1,8 @@
 repo_name: th3mon/scripts
-report_id: 97f99098ead3d5ce33cf73c99897e3d5
+report_id: f5b1be63a7b6d68dc010d43d35186e90
+version: 0.1
 repo_type: Public
-timestamp: '2023-12-14T09:26:58+00:00'
+timestamp: '2024-01-04T14:53:43+00:00'
 requested_by: stack-file[bot]
 provider: github
 branch: master
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/th3mon/scripts
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/th3mon/scripts
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -34,6 +37,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/th3mon/scripts
   detection_source: Repo Metadata
 - name: HTML
   description: Hypertext Markup Language for creating web pages.
@@ -41,6 +45,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source_url: https://github.com/th3mon/scripts/blob/master/js/fixed-fade-menu/index.html
   detection_source: js/fixed-fade-menu/index.html
   last_updated_by: th3mon
   last_updated_on: 2016-03-11 01:48:56.000000000 Z
@@ -53,4 +58,5 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/th3mon/scripts
   detection_source: Repo Metadata
